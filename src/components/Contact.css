@@ -14,12 +14,15 @@
 }
 
 .img {
-    min-width: 100px;
-    height: 100px;
+    min-width: 150px;
+    height: 150px;
     border-radius: 50%;
 }
 
 .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100vh;
     padding-top: 10px;
 }
